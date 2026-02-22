@@ -10,7 +10,7 @@ export default function Contact() {
     message: '',
   })
 
-  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [isSubmitting] = useState(false);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target
