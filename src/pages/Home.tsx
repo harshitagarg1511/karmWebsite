@@ -4,6 +4,7 @@ import About from '../components/sections/About'
 import Services from '../components/sections/Services'
 import Process from '../components/sections/Process'
 import Brands from '../components/sections/Brands'
+import Team from '../components/sections/Team'
 import Contact from '../components/sections/Contact'
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <Services />
       <Process />
       <Brands />
+      <Team />
       <Contact />
     </motion.div>
   )

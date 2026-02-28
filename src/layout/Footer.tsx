@@ -74,11 +74,18 @@ export default function Footer() {
               <div className="flex items-start gap-3">
                 <FiMapPin className="text-accent-purple mt-1 flex-shrink-0" />
                 <div className="text-sm">
-                  <p className="text-text-gray">Shop No. 1, Sanoli Road,
- Opp. Tikana Lau Wala Gurudwara,
- New HB Colony,
- Panipat, Haryana – 132103
- India</p>
+                  <p className="text-text-gray">India’s Address- 
+Shop No. 1, Sanoli Road, Opp. Tikana Lau
+Wala Gurudwara, New HB Colony,
+Panipat, Haryana – 132103
+</p>
+                </div>
+              </div>
+                            <div className="flex items-start gap-3">
+                <FiMapPin className="text-accent-purple mt-1 flex-shrink-0" />
+                <div className="text-sm">
+                  <p className="text-text-gray">Dubai Headquarters- POST BOX NO.64965, OFF. NO. 411, 4TH FLOOR, GALADARI PLAZA, RADDISON BLU HOTEL , AL RIGGA, DEIRA, DUBAI, UAE
+</p>
                 </div>
               </div>
             </div>
