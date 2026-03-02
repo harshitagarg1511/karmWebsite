@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { FiMail, FiPhone, FiMapPin } from 'react-icons/fi'
+import {  FiPhone, FiMapPin } from 'react-icons/fi'
 
 const Contact = () => {
   const contactInfo = [
