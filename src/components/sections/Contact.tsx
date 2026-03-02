@@ -6,23 +6,26 @@ const Contact = () => {
     {
       icon: <FiPhone className="w-6 h-6" />,
       label: 'Phone',
-      value: '+91 9203326281',
+      value: ['+91 9203326281',],
       href: 'tel:+919203326281',
     },
     {
-      icon: <FiMail className="w-6 h-6" />,
-      label: 'Email',
-      value: 'kashish.goyal@karmbaba.com / karmsolutions777@gmail.com',
-      href: 'mailto:kashish.goyal@karmbaba.com,karmsolutions777@gmail.com',
+      icon: <FiPhone className="w-6 h-6" />,
+      label: 'Phone',
+      value: '+91 7988753980',
+      href: 'tel:+917988753980',
     },
+
     {
       icon: <FiMapPin className="w-6 h-6" />,
       label: 'Location',
       value:
-        'Shop No. 1, Sanoli Road, Opp. Tikana Lau Wala Gurudwara, New HB Colony, Panipat, Haryana – 132103 India',
-      href:
-        'https://www.google.com/maps/dir//1,+Sanoli+Rd,+near+Abhi+Hardware,+New+HB+Colony,+Panipat,+Kabul+Bagh,+Haryana+132103/@28.7035879,75.8699388,190728m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x390dda508afdb9c1:0xc99f2d1625e65277!2m2!1d76.9745382!2d29.3859511?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D',
+        [`1) 829 Sector-18,HUDA, Panipat, Haryana 132103. `,
+          `2) Post Box No. 64965, office no. 411,4th floor, Galadari Plaza, Raddison Blu Hotel, Al Rigga, Deira ,Dubai, UAE. `,
+          `3) S1, Surya Mall, Juwani Road, Bhilai, Chhattisgarh 490020`,
+        ]
     },
+    
   ]
 
   const containerVariants = {

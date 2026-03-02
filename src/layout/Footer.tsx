@@ -58,6 +58,12 @@ export default function Footer() {
                 </div>
               </div>
               <div className="flex items-start gap-3">
+                <FiPhone className="text-accent-purple mt-1 flex-shrink-0" />
+                <div className="text-sm">
+                  <p className="text-text-gray">+91 7988753980</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-3">
                 <FiMail className="text-accent-purple mt-1 flex-shrink-0" />
                 
                 <div className="text-sm">
@@ -75,9 +81,8 @@ export default function Footer() {
                 <FiMapPin className="text-accent-purple mt-1 flex-shrink-0" />
                 <div className="text-sm">
                   <p className="text-text-gray">India’s Address- 
-Shop No. 1, Sanoli Road, Opp. Tikana Lau
-Wala Gurudwara, New HB Colony,
-Panipat, Haryana – 132103
+1) 829 Sector-18,HUDA, Panipat, Haryana 132103.
+2) S1, Surya Mall, Juwani Road, Bhilai, Chhattisgarh 490020
 </p>
                 </div>
               </div>
